@@ -6,7 +6,7 @@ static const unsigned int fgalpha = 0xffU;
 static const unsigned int bgalpha = 0xffU;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	"monospace:size=10:antialias=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
