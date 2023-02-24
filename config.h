@@ -6,9 +6,9 @@ static const unsigned int fgalpha = 0xffU;
 static const unsigned int bgalpha = 0xffU;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-    "NotoSans Nerd Font:size=10:antialias=true",
-    "Noto Color Emoji:size=10:antialias=true",
-    "FontAwesome:size=10"
+    "JetBrainsMono Nerd Font:pixelsize=14:antialias=true",
+    "Noto Color Emoji:pixelsize=14:antialias=true",
+    "FontAwesome:pixelsize=14"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
